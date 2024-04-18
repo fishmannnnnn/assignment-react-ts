@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'SB Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Interface/SB Sans Interface.otf') format('opentype');
+}
+@font-face {
+  font-family: 'TT Travels';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/TTTravels-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TT Travels';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/TTTravels-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TT Travels';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/TTTravels-Bold.ttf') format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #f4f4f5;
+  margin: 24px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
